@@ -1,0 +1,13 @@
+main {
+  background-color: #F5F7FB;
+  min-height: calc(100vh - 72px);
+  background-image: url("../public/images/blob-top.png"), url("../public/images/blobs-bottom.png");
+  background-repeat: no-repeat;
+  background-position: top right, bottom left;
+  background-size: 200px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 40px;
+}

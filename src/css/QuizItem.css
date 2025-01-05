@@ -1,0 +1,59 @@
+.QuizItem {
+  border-bottom: 1px solid #DBDEF0;
+  padding-block: 32px;
+}
+
+.QuizItem__question {
+  font-size: 16px;
+}
+
+.QuizItem__choices {
+  display: flex;
+  gap: 8px;
+}
+
+.QuizItem__choice-item {
+  margin-top: 14px;
+  display: flex;
+  align-items: center;
+  text-align: center;
+  border: 1px solid #4D5B9E;
+  border-radius: 8px;
+  padding: 2px 12px 2px 12px;
+  font-size: 12px;
+  font-weight: 500;
+  cursor: pointer;
+}
+
+.QuizItem__choice-item:hover {
+  background-color: #D6DBF5;
+  border-color: #D6DBF5;
+}
+
+.QuizItem__choice-item.selected {
+  background-color: #D6DBF5;
+  border-color: #D6DBF5;
+}
+
+.QuizItem__choice-item.correct {
+  background-color: #94D7A2;
+  border-color: #94D7A2;
+}
+
+.QuizItem__choice-item.wrong {
+  background-color: #F8BCBC;
+  border-color: #F8BCBC;
+}
+
+.QuizItem__choice-item.selected:hover,
+.QuizItem__choice-item.correct:hover,
+.QuizItem__choice-item.wrong:hover,
+.QuizItem__choice-item.checked:hover {
+  cursor: default;
+}
+
+.QuizItem__choice-item.checked:hover {
+  background-color: transparent;
+  border: 1px solid #4D5B9E;
+}
+

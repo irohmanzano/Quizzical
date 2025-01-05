@@ -1,0 +1,29 @@
+* {
+  margin: 0;
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  font-family: "Karla", Arial;
+  background-color: #1a1a1a;
+  padding: 36px;
+  color: #293264;
+}
+
+h1, h2, h3, h4 {
+  padding: 0;
+  margin: 0;
+}
+
+button {
+  font-family: "Inter", Arial;
+  font-size: 16px;
+  color: white;
+  border: none;
+  border-radius: 8px;
+  background-color: #4D5B9E;
+  padding: 8px 40px 8px 40px;
+  cursor: pointer;
+}

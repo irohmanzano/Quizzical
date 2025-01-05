@@ -1,0 +1,19 @@
+
+.MainMenu {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.MainMenu__title {
+  font-size: 32px;
+}
+
+.MainMenu__text {
+  margin-top: 8px;
+  font-size: 16px;
+}
+
+.MainMenu__start {
+  margin-top: 16px;
+}
